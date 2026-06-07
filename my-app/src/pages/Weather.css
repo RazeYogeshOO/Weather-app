@@ -26,7 +26,7 @@ body {
 }
 
 .weatherContainer {
-    border: 5px solid #000;
+    /* border: 5px solid #000; */
     width: 450px;
     height: 700px;
     border-radius: 10px;
@@ -40,7 +40,7 @@ body {
 }
 
 .toppart {
-    border: 5px solid #fff;
+    /* border: 5px solid #fff; */
     width: 450px;
     height: 100px;
     display: flex;
@@ -48,5 +48,67 @@ body {
     align-items: center;
     color : #fff;
     font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-family: cursive;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.circle1 {
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px #fff;
+}
+
+.circle2 {
+    width: 140px;
+    height: 140px;
+    right: 90px;
+    top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px #fff;
+    flex-direction: column;
+}
+
+.circle3 {
+    width: 100px;
+    height: 100px;
+    left: 120px;
+    top: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px #fff;
+    flex-direction: column;
+}
+
+.circle4 {
+    width: 90px;
+    height: 90px;
+    right: 168px;
+    top: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px #fff;
+    flex-direction: column;
 }
 
