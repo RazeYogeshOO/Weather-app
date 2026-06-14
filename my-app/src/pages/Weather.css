@@ -26,7 +26,6 @@ body {
 }
 
 .weatherContainer {
-    /* border: 5px solid #000; */
     width: 450px;
     height: 700px;
     border-radius: 10px;
@@ -36,11 +35,10 @@ body {
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 15px #000;
-    background-image: linear-gradient(to bottom, #a9cbfd, #86b0db, #6695b9, #487b98, #2b6178);
+    background-image: linear-gradient(to top, #a9cbfd, #86b0db, #6695b9, #487b98, #2b6178);
 }
 
 .toppart {
-    /* border: 5px solid #fff; */
     width: 450px;
     height: 100px;
     display: flex;
@@ -103,8 +101,8 @@ body {
 .circle4 {
     width: 90px;
     height: 90px;
-    right: 168px;
-    top: 550px;
+    right: 650px;
+    bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

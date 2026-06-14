@@ -7,21 +7,21 @@ import wtwt from '../images/wtwt.png'
 import bg1 from '../images/bg1.jpg'
 
 function Home() {
-  const [isStarted, setIsStarted] = useState(false)
-  const [location, setLocation] = useState('')
-  const navigate = useNavigate()
+  const [isStarted, setIsStarted] = useState(false);
+  const [location, setLocation] = useState('');
+  const navigate = useNavigate();
 
   function handleSearch() {
     if (location !== '') {
-      navigate('/weather', { state: { location } })
-    }
-  }
+      navigate('/weather', { state: { location } });
+    };
+  };
 
   function handleKeyDown(e) {
     if (e.key === 'Enter') {
-      handleSearch()
-    }
-  }
+      handleSearch();
+    };
+  };
 
   return (
     <div className="App">
@@ -60,4 +60,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
