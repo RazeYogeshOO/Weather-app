@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Weather from './pages/Weather'
+import Weather from './pages/weather.jsx'
 
 function App() {
   return (
